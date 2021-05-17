@@ -4,7 +4,7 @@ export get_fpga_name, get_fpga_state
 """
     get_fpga_name(; device="fpga0" )
 
-Get the name of the FPGA mounted as `device`
+Get the name of the FPGA mounted as `device`.
 """
 function get_fpga_name(; device="fpga0" )
     is_valid_device( device )
@@ -16,7 +16,7 @@ end
 """
     get_fpga_state(; device="fpga0 )
 
-Get the current state of the FPGA.
+Get the current state of the FPGA mounted as `device`.
 """
 function get_fpga_state(; device="fpga0" )
     is_valid_device( device )
