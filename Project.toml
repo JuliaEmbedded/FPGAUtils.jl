@@ -1,0 +1,7 @@
+name = "FPGAUtils"
+uuid = "988d5245-f224-4bda-b4b1-f774e87ee152"
+authors = ["Ian McInerney <ian.s.mcinerney@ieee.org> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
